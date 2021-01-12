@@ -7,7 +7,8 @@ import pandas as pd
 
 # Use pickle to load in the pre-trained model
 # to load model
-rf_model_file_loaded=r'C:\Users\armifaizal\Google Drive\360DIGITMG DATA SCIENCE COURSE\DATA SCIENCE LIVE PROJECT 2\WEBAPP\model\rf_optimized.pkl'
+#rf_model_file_loaded=r'C:\Users\armifaizal\Google Drive\360DIGITMG DATA SCIENCE COURSE\DATA SCIENCE LIVE PROJECT 2\WEBAPP\model\rf_optimized.pkl'
+rf_model_file_loaded=r'.\model\rf_optimized.pkl'
 rf_model=pickle.load(open(rf_model_file_loaded, 'rb'))
 
 # Initialise the Flask app
@@ -51,6 +52,3 @@ def main():
 
 if __name__ == '__main__':
     app.run()
-
-
-#test git
