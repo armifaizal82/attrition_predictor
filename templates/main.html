@@ -1,1 +1,44 @@
-
+<!doctype html>
+<html>
+<style>
+form {
+    margin: auto;
+    width: 35%;
+}
+.result {
+    margin: auto;
+    width: 35%;
+    border: 1px solid #ccc;
+}
+</style>
+<head>
+    <title>Attrition Predictor</title>
+</head>
+<form action="{{ url_for('main') }}" method="POST">
+    <fieldset>
+        <legend>Input values:</legend>
+        adaptability:
+        <input name="Adaptability and Intiative" type="number" required>
+        <br>
+        <br> attendance:
+        <input name="Attendance and Punctuality " type="number" required>
+        <br>
+        <br> self_eval:
+        <input name="Self Evaluation " type="number" required>
+        <br>
+        <br>
+        <input type="submit">
+    </fieldset>
+</form>
+<br>
+<div class="result" align="center">
+    {% if result %}
+        {% for variable, value in original_input.items() %}
+            <b>{{ variable }}</b> : {{ value }}<br />
+        {% endfor %}
+        <br>
+        <br><center> Predicted attrition:</center>
+           <p style="font-size:30px">{{ result }}</p>
+    {% endif %}
+</div>
+</html>
