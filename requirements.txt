@@ -39,7 +39,7 @@ QDarkStyle==2.8.1
 QtPy==1.9.0
 scikit-learn==0.24.0
 scipy==1.5.4
-sip==4.19.13
+sip==4.19.8
 sklearn==0.0
 snowballstemmer==2.0.0
 sphinxcontrib-applehelp==1.0.2
