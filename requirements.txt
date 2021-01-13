@@ -37,7 +37,6 @@ PyYAML==5.3.1
 pyzmq==20.0.0
 QDarkStyle==2.8.1
 QtPy==1.9.0
-Rtree==0.9.4
 scikit-learn==0.24.0
 scipy==1.6.0
 sip==4.19.13
