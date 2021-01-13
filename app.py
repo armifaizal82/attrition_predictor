@@ -7,7 +7,7 @@ import pandas as pd
 
 # Use pickle to load in the pre-trained model
 # to load model
-rf_model_file_loaded=r'.\model\rf_optimized.pkl'
+rf_model_file_loaded=r'.\rf_optimized.pkl'
 rf_model=pickle.load(open(rf_model_file_loaded, 'rb'))
 
 # Initialise the Flask app
