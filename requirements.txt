@@ -18,8 +18,6 @@ imagesize==1.2.0
 itsdangerous==1.1.0
 Jinja2==2.11.2
 joblib==1.0.0
-Keras==2.3.1
-Keras-Applications==1.0.8
 MarkupSafe==1.1.1
 mccabe==0.6.1
 mistune==0.8.4
@@ -48,7 +46,6 @@ sphinxcontrib-htmlhelp==1.0.3
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
-tensorflow-gpu==2.4.0
 testpath==0.4.4
 threadpoolctl==2.1.0
 webencodings==0.5.1
